@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="grayherring.shila.activity.DetailsActivity"
+    tools:showIn="@layout/activity_details"
+    >
+
+
+  <TextView
+      android:id="@+id/book_title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      />
+
+  <TextView
+      android:id="@+id/book_authors"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      android:textAppearance="?android:attr/textAppearanceMedium"
+      />
+
+  <TextView
+      android:id="@+id/book_publisher"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/publisher"
+      />
+
+  <TextView
+      android:id="@+id/book_categories"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/categories"
+      />
+
+  <TextView
+      android:id="@+id/LastOut"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/last_checked_out"
+      />
+
+  <TextView
+      android:id="@+id/book_checkout_info"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text=""
+      />
+
+  <Button
+      android:id="@+id/button_checkout"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="10dp"
+      android:singleLine="false"
+      android:text="@string/checkout"
+      />
+
+</LinearLayout>

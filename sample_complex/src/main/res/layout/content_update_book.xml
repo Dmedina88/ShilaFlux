@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="grayherring.shila.activity.UpdateBookActivity"
+    tools:showIn="@layout/activity_update_book"
+    >
+
+  <EditText
+      android:id="@+id/book_title_textEdit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="@string/book_title_hint"
+      />
+
+  <EditText
+      android:id="@+id/author_edittext"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:hint="@string/author_hint"
+      />
+
+  <EditText
+      android:id="@+id/publisher_edittext"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:hint="@string/publisher_hint"
+      />
+
+  <EditText
+      android:id="@+id/categories_edittext"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:hint="@string/categories_hint"
+      />
+
+  <Button
+      android:id="@+id/submit_button"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:text="@string/submit"
+      />
+
+</LinearLayout>
