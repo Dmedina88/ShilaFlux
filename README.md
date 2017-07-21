@@ -1,5 +1,5 @@
 # Sepreciated
-try (SSB) https://github.com/Dmedina88/SSB
+try [SSB for Android](https://github.com/Dmedina88/SSB) instead 
 # ShilaFlux
 Well I bet you are wondering What ShilaFlux right about now?
 My experimentation on porting Facebook's flux architecture to Android
