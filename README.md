@@ -1,4 +1,4 @@
-# Sepreciated
+# Depreciated
 try [SSB for Android](https://github.com/Dmedina88/SSB) instead 
 # ShilaFlux
 Well I bet you are wondering What ShilaFlux right about now?
